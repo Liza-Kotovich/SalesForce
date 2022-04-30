@@ -12,6 +12,7 @@ import java.time.Duration;
 public class InputField extends BasePage {
 
     private final String label;
+
     WebDriverWait wait = new WebDriverWait(DriverSingleton.getDriver(), Duration.ofSeconds(15));
 
     public InputField(String label) {

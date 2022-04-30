@@ -1,12 +1,10 @@
 package org.example.model;
 
 public class Account {
+
     private String accountName;
     private String webSite;
     private String industry;
-//    private String accountName = "AQA Account 1";
-//    private String webSite = "www.onliner.by";
-//    private String industry = "Apparel";
 
     public Account(String accountName, String webSite, String industry) {
         this.accountName = accountName;

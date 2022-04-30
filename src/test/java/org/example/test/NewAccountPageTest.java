@@ -12,6 +12,11 @@ public class NewAccountPageTest extends BaseTest {
 
     NewAccountPageService newAccountPageService = new NewAccountPageService();
 
+    @BeforeClass
+    public void setUp(){
+        newAccountPageService = new NewAccountPageService();
+    }
+
     @Test
     public void createNewAccountTest() {
         newAccountPageService.createNewAccount();
